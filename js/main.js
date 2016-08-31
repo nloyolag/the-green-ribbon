@@ -46,7 +46,7 @@
 	    if(winH <= 550) {
 			winH = 550;
 		}
-
+		winH += 100;
 	    // Resize our slides
 	    $slide.height(winH);
 

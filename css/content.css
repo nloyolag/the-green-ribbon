@@ -16,6 +16,10 @@ h2 {
     font-family: 'Inconsolata', monospace;
 }
 
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
 #slide-1 .bcg {
     background-image:url('../img/slide1.jpg')
 }
@@ -137,4 +141,42 @@ h2 {
 
 #slide-4 .line.open {
     height: 20px;
+}
+
+/* Slide 5 */
+
+#slide-5 .bcg {
+    background-image:url('../img/slide5.jpg')
+}
+
+.p5_jenny {
+    left: 50%;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    padding-top: 9%;
+}
+
+#slide-5 .dialog {
+    top: 35%;
+    left: 43%;
+}
+
+#slide-5 .box {
+    top: 35%;
+    left: 10%;
+}
+
+#slide-5 .box.open {
+    height: 150px;
+}
+
+#slide-5 .line {
+    top: 37%;
+    left: 38%;
+}
+
+#slide-5 .line.open {
+    width: 30px;
+    height: 1px;
 }
