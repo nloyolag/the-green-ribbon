@@ -17,6 +17,9 @@
   border: 3px solid rgba(37, 37, 229, 0.5);
   border-radius: 100%;
   cursor: pointer;
+  top: 35%;
+  left: 43%;
+  z-index: 99999;
 }
 
 .dialog:hover {
@@ -51,6 +54,11 @@
   color: #FFFFFF;
   overflow: hidden;
   z-index: 99999;
+  text-align: left;
+}
+
+.box p {
+    padding-left: 7%;
 }
 
 .box.open {
